@@ -1,1 +1,7 @@
 node_modules
+
+# Ignore all HTML files
+*.html
+
+# Ignore JavaScript files starting with 'bundle'
+bundle*.js
