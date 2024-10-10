@@ -2,7 +2,6 @@ var HtmlwebpackPlugin = require('html-webpack-plugin');
 var path = require('path');
 var CleanWebpackPlugin = require('clean-webpack-plugin');
 
-console.log('CleanWebpackPlugin', CleanWebpackPlugin);
 module.exports = {
   entry: {
     bundle1: path.resolve(__dirname, './main1.js'),
