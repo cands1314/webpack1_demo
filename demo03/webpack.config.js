@@ -6,12 +6,12 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.jsx?$/,
-        exclude: /node_modules/,
+        test: /\.jsx?$/, // 匹配需要转换的文件类型
+        exclude: /node_modules/, // 排除文件
         use: {
-          loader: 'babel-loader',
+          loader: 'babel-loader', // 使用的loader
           options: {
-            presets: ['es2015', 'react']
+            presets: ['es2015', 'react'] // 使用预定义的转换规则处理代码
           }
         }
       }
