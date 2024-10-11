@@ -1,7 +1,6 @@
 {
-  "name": "webpack-simple-demo",
+  "name": "webpack_base_demo",
   "version": "1.0.0",
-  "main": "main.js",
   "scripts": {
     "dev": "webpack-dev-server --open",
     "build": "webpack -p"
