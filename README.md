@@ -96,13 +96,10 @@ $ webpack
 ## 目录
 
 1. [Entry file](#demo01-entry-file-source)
-1. [Multiple entry files](#demo02-multiple-entry-files-source)
-1. [Babel-loader](#demo03-babel-loader-source)
-1. [CSS-loader](#demo04-css-loader-source)
-1. [Image loader](#demo05-image-loader-source)
-1. [CSS Module](#demo06-css-module-source)
-1. [UglifyJs Plugin](#demo07-uglifyjs-plugin-source)
-1. [HTML Webpack Plugin and Open Browser Webpack Plugin](#demo08-html-webpack-plugin-and-open-browser-webpack-plugin-source)
+1. [Base-Webpack](#base-webpack-source)
+1. [Multiple entry files](#multiple-entry-source)
+1. [Html-Webpack-Plugin-loader](#html-webpack-plugin-source)
+1. [Base loader](#base-loader-source)
 1. [Environment flags](#demo09-environment-flags-source)
 1. [Code splitting](#demo10-code-splitting-source)
 1. [Code splitting with bundle-loader](#demo11-code-splitting-with-bundle-loader-source)
@@ -153,7 +150,7 @@ $ cd demo01
 $ npm run dev
 ```
 
-## Demo02: Multiple entry files ([source](https://github.com/userkang/webpack-demos-cn/tree/master/demo02))
+## <a id="base-webpack-source">Base-Webpack</a>
 
 多个入口文件也是可以的。在多页面 应用中，每个页面拥有不同的入口文件，用这个就非常管用了。
 
